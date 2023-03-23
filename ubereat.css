@@ -1,0 +1,473 @@
+body{
+    overflow-x: hidden;
+    
+    min-width: 1024px;
+    max-width: 1920px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.secondcontainer{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.img-flex{
+    display: flex;
+    margin-bottom: -12px;
+    margin-left: -12px;
+    margin-right: -12px;
+    justify-content: center;
+}
+
+.img img{
+    width: auto;
+    height: 245px;
+}
+
+.img-block{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 24px;
+}
+
+.head1{
+    margin-top: 8px;
+    line-height: 36px;
+    font-size: 28px;
+    font-family: UberMove , sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.head2{
+    margin-top: 8px;
+    text-decoration: underline;
+    line-height: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: UberMove , sans-serif;
+}
+
+.space{
+    height: 80px;
+    width: 100%;
+}
+
+.cities{
+    font-size: 36px;
+    line-height: 44px ;
+    font-weight: 700;
+    font-family: UberMove , sans-serif;
+}
+
+.city-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.location{
+    text-decoration: underline;
+    line-height: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: UberMove , sans-serif;
+    color: #000000;
+}
+
+.city-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 24px;
+    grid-auto-flow: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.city-name1{
+    line-height: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: normal;
+    font-family: UberMove , sans-serif;
+    color: #000000;
+}
+
+.country-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(8,1fr);
+    gap: 24px;
+    grid-auto-flow: column;
+    margin-top: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.country-name1{
+    line-height: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: normal;
+    font-family: UberMove , sans-serif;
+    color: #000000;
+}
+
+.country-location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.countries{
+    font-size: 36px;
+    line-height: 44px ;
+    font-weight: 700;
+    font-family: UberMove , sans-serif;
+    margin: 0;
+}
+
+.uber-eatsdown{
+    display: flex;
+    font-family: UberMoveText, sans-serif;
+    gap:10%;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 44px;
+}
+
+.restaurantnear{
+    color: black;
+    cursor: pointer;
+}
+
+.english{
+    display: flex;
+}
+
+#google{
+    height:auto;
+    width:130px;
+}
+
+.app{
+    display: flex;
+    flex-direction: row;
+    margin-top: 190px;
+    gap:20px;
+}
+
+.gethelp li:hover,.restaurantnear li:hover,.icons a:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.icons{
+    gap:10%;
+}
+
+.english svg{
+    width:20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.icons a{
+    gap:20px;
+    
+}
+
+.lastheading{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+}
+
+.last{
+    display: flex;
+    gap:30%;
+}
+
+.gap{
+    height:10px;
+    width:60px;
+    border:2px solid white;
+}
+
+.lastc{
+    display: flex;
+    gap:45%;
+}
+
+.policy{
+    display: flex;
+    gap:15px;
+    justify-content: space-between;
+}
+
+.svgimg{
+    display: flexi;
+}
+
+.mid{
+    height:10px;
+    width:71%;
+    border:2px solid white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    transition: background-color 0.4s ease-in-out;
+    padding-top:30px;
+    padding-bottom: 30px;
+
+}
+
+
+.navbarscrolled{
+    background-color: white;
+    opacity: 0.98;
+}
+
+.icons{
+    display: flex;
+    gap:25px;
+}
+
+.signup{
+    background-color: black;
+    color: white;
+    border-radius: 500px;
+    font-family: UberMoveText, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 20px;
+    height: 50px;
+    width: 91px;
+}
+
+.login{
+    background-color: white;
+    color: black;
+    border-radius: 500px;
+    font-family: UberMoveText, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    gap:3px;
+    height: 51px;
+    width: 104px;
+}
+
+.signimg{
+    display: flex;
+    gap:18px;
+}
+
+.signimg{
+    display: flex;
+}
+
+
+
+.left svg{
+    padding-right:25px;
+}
+
+.backimg h1{
+    font-family: UberMove, sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.backimg p{
+    font-weight: 500;
+    font-family: UberMoveText, sans-serif;
+    line-height: 16px;
+}
+
+.delivernow{
+    border: 2px solid grey;
+    color:black;
+    display:flex;
+}
+
+.dropdown{
+    padding-top: 12px;
+
+}
+
+.delivernow p{
+    font-family: UberMoveText, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    gap:10px;
+
+}
+
+.clock{
+    margin-top: 15px;
+}
+
+.findfood{
+    border:2px solid grey;
+    color:white;
+    background-color: black;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}
+
+.entry{
+    display: flex;
+    gap:15px;
+}
+
+.delivernow{
+    padding: 12px 16px;
+    height: 30px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    display: flex;
+    gap:8px;
+}
+
+#mail{
+    height: 50px;
+    width: 450px;
+    cursor: text;
+    font-family: UberMoveText, sans-serif;
+}
+
+.scheduleforlater,.delivernow2{
+    display: flex;
+}
+
+#delivernowdropdown{
+    opacity: 0;
+}
+
+#hamburgerdropdown{
+    display: none;
+}
+
+.signup-hamburger,.login-hamburger{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: UberMoveText, sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+    width: 255.2px;
+    height: 59.2px;
+}
+.login-hamburger{
+    margin-top: 9px;;
+}
+
+.hamburgerdropdown p{
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: UberMoveText, sans-serif;
+}
+
+.hamburgerflex{
+    display: flex;
+    gap:15px;
+}
+
+.hamburgerflex img{
+    height:70px;
+}
+
+.iphoone,.android,.iphone{
+    display: flex;
+    border-radius: 500px;
+    padding: 12px;
+    line-height: 16px;
+    font-size: 14px;
+    background: #EEEEEE;
+}
+
+.hamburgerflex{
+    margin-top: 120px;
+}
+
+.deliveryimg{
+    display: flex;
+}
+
+.clock,.dropdown{
+    height:20px;
+}
+
+.location{
+    height: 30px;;
+}
+
+.loginn img{
+    height: 20px;
+}
+
+.thirdline,.oneline,.secondline{
+    padding-bottom: 1px;
+    width:20px;
+    height:3px;
+    color: black;
+    background-color: black;
+    
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+}
+
+.firstcontainer{
+    background:url(	https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+}
+
+.recentaddress{
+    padding-bottom: 200px;
+}
+
+.img-flex{
+    margin-top: 80px;
+}
+
+.firstcontainer{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
